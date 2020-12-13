@@ -1,0 +1,21 @@
+Implementar app en grupo, que sirva a entidades 
+como universidades, tener de forma automatizada 
+versiones de ficheros escritos por alumnos en un examen.
+Dichas copias serán producidas periódicamente o bajo demanda
+por el profesor.
+El alumno precisará instalar una herramienta previa en su máquina
+para que el sistema de versiones pueda ejecutarse.
+El sistema deberá poder procesar las copias que genera, con el fin
+de observar diferencias (entre otras cosas) entre ficheros generados
+por diferentes alumnos.
+
+Tecnologías a usar:
+-------------------
+Git
+Java y tecnologías derivadas:JGit-Spark-JUnit
+SQLite y ProstgreSQL para bases de datos relacionales
+Travis para integración continua del producto
+Métodología TDD
+Heroku como servicio en la nube para el despliegue de la app
+
+Resto de requisitos de funcionalidad se irán añadiendo
